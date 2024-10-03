@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: manager-crm-api
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/postgres" # query performance logging for local env
+    username: "postgres"
+    password: "postgres"
+  flyway:
+    baselineOnMigrate: true
+    enabled: true
